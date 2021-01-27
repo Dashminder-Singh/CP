@@ -13,6 +13,7 @@ int indices(int A[],int N,int target)
 			}
 		}
 	}
+	cout<<endl;
 }
 
 int main()
@@ -30,7 +31,7 @@ int main()
 		{
 			cin>>arr[i];
 		}
-		indices(arr,n,targe);
+		indices(arr,n,target);
 	}
 	return 0;
 }

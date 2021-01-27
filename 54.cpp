@@ -13,6 +13,7 @@ void upper(string &s)
 		}
 	}
 }
+
 int main()
 {
 	string s1,s2,s3,s4,s5;

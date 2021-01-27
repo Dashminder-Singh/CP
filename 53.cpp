@@ -13,7 +13,7 @@ int duplicate(item list1[],int m, item list2[],int n)
 	int count=0;
 	for(int i=0; i<m; i++)
 	{
-		for(int j=0; j<n; j++)
+		for(int j=1; j<n; j++)
 		{
 			if((list1[i].weight != list2[i].weight))
 				{
