@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int indices(int A[],int N,int target)
+void indices(int A[],int N,int target)
 {
 	for(int i=0; i<N; i++)
 	{
