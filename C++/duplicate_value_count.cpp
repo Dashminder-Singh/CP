@@ -3,7 +3,7 @@ using namespace std;
 
 void  duplicate(int A[],int N)
 {
-	int count=0;
+	int count=1;
 	for(int i=0; i<N; i++)
 	{
 		for(int j=i+1; j<N; j++)
