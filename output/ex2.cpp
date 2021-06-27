@@ -6,7 +6,7 @@ int main()
 	int a,b;
 	cout<<"Enter number ";
 	cin>>a;
-	for(int i=1; i<13; i++)
+	for(int i=1; i<=5; i++)
 	{
 		b=a*i;
 	}
